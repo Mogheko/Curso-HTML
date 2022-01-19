@@ -1,0 +1,182 @@
+
+			* {
+			  box-sizing: border-box;
+			}
+			html { 
+				margin: 0px;
+				padding:  0;
+				font-size:62.5%;
+			}
+
+			body {
+			  background-color: #EBEBEB;
+			}
+			
+			section{
+				background-color: #D6D6D6;
+
+			}
+
+			h1,h2,p, li,h5,h3{
+				font-weight: 100;
+				font-family:  'Cairo', sans-serif;
+				font-family: 'Raleway', sans-serif;;
+				letter-spacing: 0.05rem;
+				line-height: 2.2rem;
+
+			
+			}
+			table{
+				background: #fffff;
+				width: 100%;
+				border: 1px solid #757575;
+				padding:  1rem;
+			
+			}
+			table th{
+				background-color: #237589;
+
+			}
+
+			th,td{
+				font-size: 1.5rem;
+				font-weight: 100;
+				font-family:  'Cairo', sans-serif;
+				font-family: 'Raleway', sans-serif;;
+				text-align: left;
+
+			}
+			tfoot{
+				background-color: #B8B8B8;
+			}
+			thead{
+
+				background-color: #610200;
+			}
+			
+
+			h2 {
+				font-size: 2rem;
+				color:  #610200;
+			}
+			h2:hover{
+				color: #048077;
+			}
+			h1:hover{
+				color: #797A82;
+				;
+			}
+			
+			
+
+			a{
+				color:  #610200;
+				text-decoration: none;
+				font-size: 1.7rem;
+				height: auto;
+			}
+
+			a:hover, li:hover{
+				color: #048077;
+				background: #eee;
+			}
+				
+			a:active {
+				color: #0f0;
+			}
+			strong {
+				color: #03635D;
+			}
+			p{
+				border-top: -10px;
+				border-bottom: -10px;
+				font-size: 1.6rem;
+				color: #540100;
+
+			}
+			
+
+			/* Style the header */
+			header {
+			  background-color: #7E8389;
+			  padding: 30px;
+			  text-align: center;
+			  font-size: 35px;
+			  color: white;
+			}
+			ul li{
+				font-size:0.8em;
+				width:100%;
+
+			}
+			form div{
+				margin: 20px 10px 20px 10px;
+				border-bottom: 9px solid #000;
+				border-left: 9px solid #000;
+				padding: 20px;
+				background:  #fff;
+				font-wieght: bold;
+				color: #66F;
+
+			}
+			
+
+			textarea{
+				margin: 0px;
+				width: 321px;
+				height: 90px;
+			}
+			label {
+				color: #701919;
+				font-size: 16px;
+				position: static;
+			}
+
+			/* Create two columns/boxes that floats next to each other */
+			nav {
+			  float: left;
+			  width: 30%;
+			   
+			  background: #A0A6AD;
+			  padding: 20px;
+			}
+
+			/* Style the list inside the menu */
+			nav ul {
+			  list-style-type: none;
+			  padding: 0;
+			}
+
+			article {
+			  float: left;
+			  padding: 20px;
+			  width: 70%;
+			  background-color: #D6D6D6;
+			}
+
+			/* Clear floats after the columns */
+			section::after {
+			  background: #A0A6AD;
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+
+			/* Style the footer */
+			footer {
+			  background-color: #7E8389;
+			  padding: 10px;
+			  text-align: center;
+			  color: #0F0F0F;
+			}
+			
+			ul{
+				font-size: 20px;
+
+				background-color:#A0A6AD;
+			}
+			audio{
+				width: 100%;
+			}
+			
+			

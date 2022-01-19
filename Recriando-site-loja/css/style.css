@@ -1,0 +1,408 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+    
+}
+
+html { 
+    margin: 0px;
+    padding:  0;
+    font-size:62.5%;
+    width: 100%;
+    font-family:  sans-serif;
+    background-color: rgb(238, 238, 238);
+   
+}
+header{
+    padding: 1rem;
+}
+body{
+    margin-top:2rem;
+    width: 100%;
+   
+}
+
+
+section{
+    margin: 16rem;
+    margin-top: 5rem;
+    
+}
+
+
+.logo{
+    vertical-align: middle;
+    border-style: none;
+    margin-right: 200px;
+    margin-left: 100px;
+}
+.cliente{
+
+    vertical-align: middle;
+    border-style: none;
+    margin-top: -0.5rem;
+    margin-right: 260px;
+    margin-left: 40rem;
+
+}
+.store{
+   
+    vertical-align: middle;
+    
+    border-style: none;
+    margin-top: -5rem;
+    margin-right: -8rem;
+    margin-left: 10rem;
+    
+}
+
+.copy{
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+/* produtos */
+.produto-1{
+    margin-top:2rem ;
+    width:15rem;
+    height: auto
+}
+.produto-2{
+    margin-top:2rem ;
+    width:15rem;
+    float: right;
+    margin-right: 87rem;
+    margin-top: -31rem;
+   
+}
+.produto-3{
+    margin-top:2rem ;
+    width:15rem;
+    float: right;
+    margin-right: 63rem;
+    margin-top: -31rem;
+   
+   
+}
+
+/* se o professor pedir kk
+.produto-3:hover{
+    filter:blur(0.8px)
+}
+*/
+
+.reco{
+    color:#E84B00;
+    text-align: center;
+    font-size: large;
+    border-bottom: 3px solid #a9201a;
+    margin-top: 5rem;
+    margin-left: 16rem;
+    margin-right: 16rem;
+  
+    
+}
+.reco:hover{
+    color:black
+}
+
+
+a:hover{
+    color:rgb(98, 0, 255)
+}
+
+a{
+    text-decoration: none;
+    color: #E84B00;
+    width: 20%;
+    max-width: 20%;
+}
+
+.barra{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.nav-link-login{
+    display: block;
+    padding: 0.5rem 1rem;
+   
+    margin-left: 130rem;
+    margin-right: -10rem;
+    float: right;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    position: absolute;
+    height: auto;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+ul li{
+    list-style-type: none;
+    float:left;
+    font-size: 2rem;
+    margin-left: 30rem;
+}
+.copy:hover{
+    color:#E84B00
+}
+
+footer{
+   
+        list-style-type: none;
+        margin-top: 40px;
+        padding: 80px 20px 100px 70px;
+        text-align: left;
+        color: white;
+        font-size: 2rem;
+        background-color: #000000;
+}
+
+
+
+h2,h3 {
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    margin: 1rem;
+    
+}
+h1{
+    margin: 1rem;
+
+  
+}
+h2{
+    margin:1rem;
+    width: 25%;
+}
+/* produto 2 */
+.comprar-2{
+    font-family: 'Ubuntu', sans-serif;
+     
+    padding: 12px;
+   background-color: black;
+   width: 70%;
+   font-size: 2rem;
+   border-radius: 30px;
+}
+.div-2{
+   
+    font-family: 'Ubuntu', sans-serif;
+    margin-top:2rem ;
+    width:15rem;
+    float: right;
+    margin-right: 87rem;
+    margin-top: -15.5rem;
+}
+
+.texto-2{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Raleway', sans-serif; ;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    margin: 1rem;
+    width:120%;
+}
+.h3-2{
+    width:120%;
+}
+
+/* produto 3 */
+
+
+
+.div-3{
+   
+    font-family: 'Ubuntu', sans-serif;
+    margin-top:2rem ;
+    width:15rem;
+    float: right;
+    margin-right: 63rem;
+    margin-top: -15.5rem;
+}
+
+.texto-3{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Raleway', sans-serif; ;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    margin: 1rem;
+    width:120%;
+}
+.h3-3{
+    width:120%;
+}
+
+.comprar-3{
+        font-family: 'Ubuntu', sans-serif;
+     
+    padding: 12px;
+         background-color: black;
+        width: 70%;
+     font-size: 2rem;
+        border-radius: 30px;
+}
+.comprar{
+        font-family: 'Ubuntu', sans-serif;
+        padding: 12px;
+        background-color: black;
+        width: 8.5%;
+        font-size: 2rem;
+        border-radius: 30px;
+}
+
+
+
+    .top-form{
+        position: absolute;
+        left: 0;
+        margin-left: 500px;
+        width: 600px;
+        height: 43px;
+        border: none;
+        padding: 8px 55px 6px 12px;
+        font-size: 18px;
+        font-family: 'Open sans', sans-serif;
+        font-weight: 600;
+        border-radius: 10px;
+        background-color:#f1f1f1ec;
+    }
+
+    .cqp{
+        padding: 0.2rem;
+        margin-top:5.5rem;
+        background-color:rgb(255,81,1);
+        font-size: 1rem;
+        width: 100%;
+        text-align: left;
+        width: 20%;
+        
+    }
+
+
+
+    /* Produtos */
+
+    .produto-comprar-1{
+        margin-top:20rem ;
+        width:45rem;
+        height: auto;
+        margin-left:10rem ;
+        
+        
+    }
+
+    .article-compra{
+        box-sizing: border-box;
+        padding:0px;
+        background-color: rgb(248, 248, 248);
+    }
+    .nav-compra{
+        box-sizing: border-box;
+        float: left;
+        padding: 2rem;
+        background-color: blue;
+        
+    }
+    .footer-1{
+        border-top: 40rem;
+    }
+
+    .especial-1{
+    background-color: white;
+}
+
+    .especial{
+        background-color: white;
+        padding: 3rem;
+        
+    }
+
+    .cpk
+{
+    padding: 0.2rem;
+        margin-top:5.5rem;
+        background-color:rgb(255,81,1);
+        font-size: 1rem;
+        width: 20%;
+        text-align: left;
+      
+        margin-bottom: -5rem;
+}
+ul{
+    background-color:#FC6B0F;
+}
+
+.cpj
+{
+    
+    position: absolute;
+    margin-left: 31.5rem;
+    margin-top: -3.9rem;
+    text-align: center;
+    float: center;
+    font-size:1rem;
+    color: black;
+    height: 4.1rem;
+}
+.cpl
+{
+ 
+    position: absolute;
+    margin-left:63rem;
+    margin-top: -3.9rem;
+    float: center;
+    font-size:1rem;
+    text-align: center;
+    color: black;
+    height: 4.1rem;
+}
+.cpm
+{
+   
+    position: absolute;
+    text-align: center;
+    margin-left:94.7rem;
+    margin-top: -3.9rem;
+    float: center;
+    font-size:1rem;
+    color: black;
+    height: 4.1rem;
+}
+.cpn
+{
+   
+    position: absolute;
+    text-align: center;
+    margin-right: 2rem;
+    margin-left: 124.4rem;
+    margin-top: -3.9rem;
+    border-width: 10rem;
+    float: center;
+    font-size:1rem;
+    color: black;
+    height: 4.1rem;
+}
+
+.c-1{
+    font-size: 0.85rem;
+}
+
+iframe{
+    margin-left: 40rem;
+   
+}
+.mapa{
+    float:right;
+    margin-top: -8rem;
+}
