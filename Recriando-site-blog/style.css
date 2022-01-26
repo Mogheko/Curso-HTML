@@ -100,10 +100,10 @@ img{
 
    
 .div-post{
- width:98%;
- margin-left: 0px;
- margin-right: 10px;
-display: inline-block;
+    width:98%;
+    margin-left: 0px;
+    margin-right: 10px;
+    display: inline-block;
     border-bottom: 1px solid #555;
 }
 

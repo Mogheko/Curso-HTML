@@ -1,0 +1,136 @@
+body{
+    background-color: #ffffff;
+}
+a,footer,h1,h2,h3,h4,h5,p{
+    color:#2F1C6A;
+   
+    font-family: 'Roboto Condensed', sans-serif;}
+a{
+    text-decoration: none;
+    font-size: 25px;
+}
+a:hover{
+    color: #fff;
+}
+h1{
+    background-color: #4ac9f0;
+}
+
+.geral{
+
+    background-color: #ffffff;
+}
+.mudar-cor{
+    background-color: #4ac9f0; 
+}
+.div-1{
+    width: 55%;
+    display: inline-block;
+    padding-left: 10%;
+    margin-right: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.div-2{
+    width: 30%;
+    display: inline-block;
+    margin-left: 0;
+}
+div.box {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-bottom: 4px solid #2F1C6A;
+
+}
+
+img{
+    width: 20%;
+    margin:0;
+    padding:0;
+    border: 0;
+}
+.foto-1-horizontal{
+    width:40%;
+    height:400px;
+    margin:0;
+    padding:0;
+    border: 0;
+    
+    transition: transform .5s ease;
+}
+.foto-2-quadrada{
+    width:30%;
+    height:400px;
+    margin:0;
+    padding:0;
+    border: 0;
+    position: relative;
+    transition: transform .5s ease;
+}
+.foto-1-horizontal:hover{
+    
+    transform: scale(0.9);
+ }
+ .foto-2-quadrada:hover{
+   
+    transform: scale(0.9);
+ }
+ .foto-3-quadrada{
+    width:29.5%;
+    height:400px;
+    float: right;
+    margin:0;
+    padding:0;
+    border: 0;
+    
+    transition: transform .5s ease;
+ }
+ .foto-3-quadrada:hover{
+   
+    transform: scale(0.9);
+ }
+ .aaaa{
+     width: 99.5%;
+     padding:3px;
+     text-align: center;
+     font-size: 30px;
+     display: inline-block;
+ }
+ .noticia-1{
+    height: 130px;
+    width: 164px;
+  border-radius: 10px;
+    float: left;
+    
+ }
+ .noticia-1:hover{
+   
+    transform: scale(0.9);
+ }
+ .posts{
+    padding-left: 100px;
+    padding-top: 24px;
+    padding-bottom: 50px;
+    display: block;
+    border-bottom: 1px solid #301c6a4d;
+    background-color: #f0f0f0;
+ }
+ 
+
+ .lorem{
+
+     padding-left:200px;
+     padding-top: 35px;
+   
+ }
+ .lorem:hover{
+    color: #4ac9f0;
+ }
+ .lorem-1{
+    padding-left: 200px;
+    padding-top: 15px;
+ }
